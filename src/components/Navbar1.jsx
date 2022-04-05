@@ -23,7 +23,7 @@ function Navbar1() {
           id="navbarCollapse"
         >
           <div className="navbar-nav m-auto py-4">
-            <Link to="/" className="nav-item nav-link">
+            <Link to="/SafetyFirst" className="nav-item nav-link">
               Home
             </Link>
             <Link to="/about" className="nav-item nav-link">
