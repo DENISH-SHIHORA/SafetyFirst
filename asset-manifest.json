@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/SafetyFirst/static/js/main.f1b05d25.js",
+    "main.js": "/SafetyFirst/static/js/main.2c02ce0b.js",
     "index.html": "/SafetyFirst/index.html",
-    "main.f1b05d25.js.map": "/SafetyFirst/static/js/main.f1b05d25.js.map"
+    "main.2c02ce0b.js.map": "/SafetyFirst/static/js/main.2c02ce0b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f1b05d25.js"
+    "static/js/main.2c02ce0b.js"
   ]
 }
