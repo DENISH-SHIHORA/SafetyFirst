@@ -12,6 +12,8 @@ import BlogDetails from "./Pages/BlogDetails1";
 function App() {
   return (
     <>
+      <Topbar />
+      <Home />
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About1 />} />
