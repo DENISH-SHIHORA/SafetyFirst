@@ -23,16 +23,16 @@ function Navbar() {
           id="navbarCollapse"
         >
           <div className="navbar-nav m-auto py-4">
-            <Link to="/SafetyFirst" className="nav-item nav-link">
+            <Link to="/SafetyFirst/" className="nav-item nav-link">
               Home
             </Link>
-            <Link to="/about" className="nav-item nav-link">
+            <Link to="/about/" className="nav-item nav-link">
               About
             </Link>
-            <Link to="/services" className="nav-item nav-link">
+            <Link to="/services/" className="nav-item nav-link">
               Services
             </Link>
-            <Link to="/guards" className="nav-item nav-link">
+            <Link to="/guards/" className="nav-item nav-link">
               Guards
             </Link>
             <div className="nav-item dropdown">
@@ -44,15 +44,15 @@ function Navbar() {
                 Pages
               </a>
               <div className="dropdown-menu text-capitalize">
-                <Link to="/blog-grid" className="dropdown-item">
+                <Link to="/blog-grid/" className="dropdown-item">
                   Blog Grid
                 </Link>
-                <Link to="/blog-details" className="dropdown-item">
+                <Link to="/blog-details/" className="dropdown-item">
                   Blog Detail
                 </Link>
               </div>
             </div>
-            <Link to="/contact" className="nav-item nav-link">
+            <Link to="/contact/" className="nav-item nav-link">
               Contact
             </Link>
           </div>

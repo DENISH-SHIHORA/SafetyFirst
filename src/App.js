@@ -14,13 +14,13 @@ function App() {
     <>
       <Topbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About1 />} />
-        <Route path="/services" element={<Services1 />} />
-        <Route path="/guards" element={<Guards />} />
-        <Route path="/contact" element={<Contacts1 />} />
-        <Route path="/blog-grid" element={<BlogGrid1 />} />
-        <Route path="/blog-details" element={<BlogDetails />} />
+        <Route path="/SafetyFirst/" exact element={<Home />} />
+        <Route path="/about/" element={<About1 />} />
+        <Route path="/services/" element={<Services1 />} />
+        <Route path="/guards/" element={<Guards />} />
+        <Route path="/contact/" element={<Contacts1 />} />
+        <Route path="/blog-grid/" element={<BlogGrid1 />} />
+        <Route path="/blog-details/" element={<BlogDetails />} />
       </Routes>
       <Footer />
     </>
