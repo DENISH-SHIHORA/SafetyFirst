@@ -26,13 +26,13 @@ function Navbar() {
             <Link to="/SafetyFirst/" className="nav-item nav-link">
               Home
             </Link>
-            <Link to="/about/" className="nav-item nav-link">
+            <Link to="/SafetyFirst/about" className="nav-item nav-link">
               About
             </Link>
-            <Link to="/services/" className="nav-item nav-link">
+            <Link to="/SafetyFirst/services" className="nav-item nav-link">
               Services
             </Link>
-            <Link to="/guards/" className="nav-item nav-link">
+            <Link to="/SafetyFirst/guards" className="nav-item nav-link">
               Guards
             </Link>
             <div className="nav-item dropdown">
@@ -44,15 +44,15 @@ function Navbar() {
                 Pages
               </a>
               <div className="dropdown-menu text-capitalize">
-                <Link to="/blog-grid/" className="dropdown-item">
+                <Link to="/SafetyFirst/blog-grid" className="dropdown-item">
                   Blog Grid
                 </Link>
-                <Link to="/blog-details/" className="dropdown-item">
+                <Link to="/SafetyFirst/blog-details" className="dropdown-item">
                   Blog Detail
                 </Link>
               </div>
             </div>
-            <Link to="/contact/" className="nav-item nav-link">
+            <Link to="/SafetyFirst/contact" className="nav-item nav-link">
               Contact
             </Link>
           </div>
